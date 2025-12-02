@@ -5,8 +5,8 @@ title: "Home"
 
 ## About Me
 
-Hi! I'm **Your Name**, a researcher interested in *data science, machine learning, and applied statistics*.  
-I enjoy exploring real-world datasets, designing experiments, and communicating results clearly.
+Hi! I'm **Michael Jian**, a researcher interested in *mathematics, data science, machine learning, and statistics*.  
+I enjoy exploring both abstract math and real-world problems.
 
 This site highlights some of the research projects I've worked on, including:
 
