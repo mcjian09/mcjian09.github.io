@@ -62,4 +62,4 @@ Our analysis combines classical statistical modeling with spatial and diffusion-
 
   <br>
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vTbouskMIylLUBVscahfJsFYOIng851Dpxmg3UOwtr4UFkr0wHjMprCgOtdvuaQY4NEVlbzl1xPJkXs/pub?embedded=true" style="width:100%; height:3000px; border:none;"></iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vTbouskMIylLUBVscahfJsFYOIng851Dpxmg3UOwtr4UFkr0wHjMprCgOtdvuaQY4NEVlbzl1xPJkXs/pub?embedded=true" style="width:100%; height:30000px; border:none;"></iframe>
