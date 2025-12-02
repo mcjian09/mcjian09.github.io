@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* ----- Header ----- */
+header {
+    text-align: center;
+    padding: 60px 20px 40px;
+    background: #2d2d2d;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+header .tagline {
+    font-size: 16px;
+    opacity: 0.85;
+}
+
+/* ----- Navigation ----- */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    gap: 0;
+}
+
+nav > a,
+nav .dropbtn {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    border: none;
+    background: #444;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav > a:hover,
+nav .dropbtn:hover {
+    background: #111;
+}
+
+/* ----- Dropdown Menu ----- */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 220px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #111;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* ----- Main Content ----- */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px 60px;
+    box-sizing: border-box;
+}
+
+main h1, main h2, main h3 {
+    color: #222;
+}
+
+main h2 {
+    border-bottom: 3px solid #444;
+    padding-bottom: 6px;
+    margin-top: 32px;
+}
+
+/* ----- Cards ----- */
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+/* ----- Buttons ----- */
+.button {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #2d6cdf;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background: #1a4da3;
+}
+
+/* ----- Footer ----- */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #2d2d2d;
+    color: #ccc;
+}

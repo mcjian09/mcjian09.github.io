@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+<header>
+  <h1>{{ site.title }}</h1>
+  <p class="tagline">{{ site.description }}</p>
+</header>
+
+{% include nav.html %}
+
+<main>
+  {{ content }}
+</main>
+
+<footer>
+  <p>© <span id="year"></span> {{ site.title }} — Built with Jekyll &amp; GitHub Pages</p>
+</footer>
+
+<script>
+// Auto-update footer year
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
