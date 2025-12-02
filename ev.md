@@ -23,8 +23,8 @@ Together, these analyses provide both a **current snapshot** of EV adoption and 
 
 We assembled a comprehensive state-level dataset from publicly available government and research sources. Key datasets include:
 
-- **EV adoption by state (2016–2023)** – registered electric vehicles. [Data]([url](https://github.com/mcjian09/EV-Adoption-Across-United-States/blob/main/data/EV_ADOPTION16-23.csv))
-- **EV adoption with state-level covariates (2023)** – income, fuel prices, infrastructure, incentives, urbanization. [Data]([url](https://github.com/mcjian09/EV-Adoption-Across-United-States/blob/main/data/2023_EV_Data_by_state.csv))
+- **EV adoption by state (2016–2023)** – registered electric vehicles. [DATA]([url](https://github.com/mcjian09/EV-Adoption-Across-United-States/blob/main/data/EV_ADOPTION16-23.csv))
+- **EV adoption with state-level covariates (2023)** – income, fuel prices, infrastructure, incentives, urbanization. [DATA]([url](https://github.com/mcjian09/EV-Adoption-Across-United-States/blob/main/data/2023_EV_Data_by_state.csv))
 
 Primary data sources include:
 - U.S. Department of Energy (AFDC)  
