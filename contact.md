@@ -21,8 +21,6 @@ You can reach me directly at:
 
 - **GitHub:** [mcjian09.github.io](https://mcjian09.github.io/)
 
-(Add or remove any items you want.)
-
 ## School
 
 **University High School, Irvine, California**
