@@ -58,6 +58,6 @@ Our analysis combines classical statistical modeling with spatial and diffusion-
 
 ## Manuscript
 
-- **M. Jian and J. Sun (2025).** *Electric Vehicle Adoption Across the U.S.: Economic Patterns, Market Dynamics, and Future Projections.* Under review. :contentReference[oaicite:0]{index=0}
+- **M. Jian and J. Sun (2025).** *Electric Vehicle Adoption Across the U.S.: Economic Patterns, Market Dynamics, and Future Projections.* Under review. 
 
 ---
