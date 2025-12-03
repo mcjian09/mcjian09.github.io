@@ -6,33 +6,18 @@ permalink: /alzheimers/
 
 # Alzheimer’s Research
 
-Use this page to describe your Alzheimer’s-related research.
+I started researching Alzheimer's Disease during COSMOS at UCI.
 
-## Overview
+## UCI COSMOS
 
-Briefly describe the problem you're studying, the data you used, and the main questions you wanted to answer.
+Throughout the COSMOS program, I and two partners worked on predicting Alzheimer's Disease using Neuroimaging and Cognitive Data. Our presentation poster is below:
 
-Example topics you might cover:
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRy1u-PM043SvdPDCD4jqbZ0qxCB6nLS8qiSY-y2BMxMbU2QU8Uzqt7HNvX7f1qcFKtsIr4SmWuZWaJ/pub?start=false&loop=false&delayms=60000000" style="width:100%; border:none;"></iframe>
 
-- Early detection and prediction of Alzheimer’s disease
-- Cognitive test scores, imaging data, biomarkers
-- Risk factors and progression patterns
+## Continuation of Research
 
-## Methods
+During COSMOS, we wanted to do an longitudinal analysis of the data to analyze how changes in the brain over time affected Alzheimer's progression. However, we were unable to sort through the data.
 
-Describe the methods you used. For example:
+Following the conclusion of COSMOS, I started working on the longitudinal analysis of the data, and presented my work at the [Southern California Conference for Undergraduate Research](https://sccur.org). My slideshow is below:
 
-- Data preprocessing and feature engineering
-- Statistical models or machine learning algorithms
-- Cross-validation and evaluation metrics
-
-## Key Findings
-
-- Finding 1
-- Finding 2
-- Finding 3
-
-You can also link to external resources:
-
-- [Paper or report (PDF)](#)
-- [GitHub repository](#)
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT8lO7K9dwh6nLDG7aQYZJxZ2pXDEe1vCzv-OmS25f3PYg9ks7H51oWzaeGa_7NEKStKac8SZInTvyy/pub?start=false&loop=false&delayms=60000000" style="width:100%; border:none;"></iframe>
