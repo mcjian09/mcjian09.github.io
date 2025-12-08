@@ -7,7 +7,7 @@ permalink: /contact/
 # Contact Me
 
 Thank you for visiting my website!  
-Feel free to reach out — I’m always open to new opportunities, collaborations, or questions about my research.
+Feel free to reach out! I’m always open to new opportunities, collaborations, or questions about my research.
 
 ## Email
 You can reach me directly at:
@@ -17,9 +17,11 @@ You can reach me directly at:
 </a>
 
 
-## 🔗 Links
+## Other contact:
 
 - **GitHub:** [mcjian09.github.io](https://mcjian09.github.io/)
+- **Discord:** mcjian
+- **Tetr.io** <a href="https://ch.tetr.io/u/mcjian">mcjian</a>
 
 ## School
 
