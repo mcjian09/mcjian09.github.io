@@ -5,8 +5,9 @@ title: "Home"
 
 ## About Me
 
-Hi! I'm **Michael Jian**, a researcher interested in *mathematics, data science, machine learning, and statistics*.  
-I enjoy exploring both abstract math and real-world problems.
+Hi! I'm **Michael Jian**, a high-schooler attending University High School, Irvine, California.
+
+I really like exploring and solving both abstract math and real-world problems.
 
 This site highlights some of the research projects I've worked on, including:
 
@@ -14,14 +15,13 @@ This site highlights some of the research projects I've worked on, including:
 - Electric vehicle (EV) data and adoption
 - Student dropout risk modeling
 
-Use the **Research** menu above to explore each project in more detail.
 
 ## Research Highlights
 
 <div class="card">
   <h3>Alzheimer’s Research</h3>
   <p>
-    Modeling risk factors and progression patterns using clinical and imaging data.
+    Did some modelling
   </p>
   <a class="button" href="{{ '/alzheimers/' | relative_url }}">View project</a>
 </div>
@@ -29,7 +29,7 @@ Use the **Research** menu above to explore each project in more detail.
 <div class="card">
   <h3>EV Research</h3>
   <p>
-    Analyzing trends in electric vehicle adoption, charging behavior, and policy impact.
+    Looked at some trends
   </p>
   <a class="button" href="{{ '/ev/' | relative_url }}">View project</a>
 </div>
@@ -37,7 +37,7 @@ Use the **Research** menu above to explore each project in more detail.
 <div class="card">
   <h3>Student Dropout Research</h3>
   <p>
-    Predicting student dropout using demographic, academic, and engagement data.
+    First ever Data Science/ML project, really fun!
   </p>
   <a class="button" href="{{ '/dropout/' | relative_url }}">View project</a>
 </div>
