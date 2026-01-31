@@ -9,9 +9,13 @@ I'm **Michael Jian**, a high school student at University High School in Irvine,
 
 This website documents research projects I worked on, involving real-world datasets and statistical modeling, including:
 
-- Alzheimer’s disease risk and progression modeling  
-- Electric vehicle (EV) adoption and growth dynamics  
-- Student dropout risk prediction  
+- Summer 2025 - Present: Alzheimer’s disease prediction using baseline and longitudinal MRI. I began this research during a UC COSMOS program.   <a class="button" href="{{ '/alzheimers/' | relative_url }}">View project</a>
+
+- Summer 2024 - Present: electric vehicle (EV) adoption across states (2016  - 2023). This project is joint with my friend Jason.   <a class="button" href="{{ '/ev/' | relative_url }}">View project</a>
+
+- Summer 2024: Student dropout risk. This is the first data science project I worked on. I completed the project during a two-week machine learning program.   <a class="button" href="{{ '/dropout/' | relative_url }}">View project</a>
+
+- **MIT Primes participant 2026**; accepted to MIT Prime's 2026 program. Look forward to working on something cool! To be updated. 
 
 ---
 
@@ -20,28 +24,28 @@ This website documents research projects I worked on, involving real-world datas
 ## Research Highlights
 
 <div class="card">
-  <h3>Alzheimer’s Disease Research</h3>
+  <h3>Alzheimer’s Disease Research (2025 Summer - Present)</h3>
   <p>
-    I modeled Alzheimer’s disease risk using brain imaging and cognitive data, with a focus on
-    identifying longitudinal patterns associated with disease progression.
+    Suring a UC COSMOS program, I modeled Alzheimer’s disease risk using brain imaging and cognitive data. After that, I focus on 
+    identifying longitudinal MRI signatures associated with disease progression.
   </p>
   <a class="button" href="{{ '/alzheimers/' | relative_url }}">View project</a>
 </div>
 
 <div class="card">
-  <h3>Electric Vehicle Adoption Research</h3>
+  <h3>Electric Vehicle Adoption Research (2024 Summer - Present)</h3>
   <p>
     I analyzed large-scale government datasets to study trends in electric vehicle adoption and
-    identify key drivers of growth over time.
+    identify key drivers of growth over time. This is joint work with my friend Jason. 
   </p>
   <a class="button" href="{{ '/ev/' | relative_url }}">View project</a>
 </div>
 
 <div class="card">
-  <h3>Student Dropout Risk Modeling</h3>
+  <h3>Student Dropout Risk Modeling (2024 Summer) </h3>
   <p>
     I built predictive models to estimate student dropout risk using demographic, academic,
-    and engagement-related features.
+    and engagement-related features. This work completed when I attended a machine learning summer program at UCI. 
   </p>
   <a class="button" href="{{ '/dropout/' | relative_url }}">View project</a>
 </div>
@@ -53,7 +57,7 @@ This website documents research projects I worked on, involving real-world datas
 - Summer 2025 - present: Alzheimer’s disease prediction using baseline and longitudinal MRI. I began this research during a UC COSMOS program.
 - Summer 2024 - present: electric vehicle (EV) adoption across states (2016  - 2023). This project is joint with my friend Jason.
 - Summer 2024: Student dropout risk. This is the first data science project I worked on, which got me into the area.
-- **MIT Primes participant 2026**; accepted to MIT Prime's 2026 program.
+- **MIT Primes participant 2026**; accepted to MIT Prime's 2026 program. Look forward to working on something cool!
 
 ---
 
