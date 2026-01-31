@@ -10,12 +10,9 @@ I'm **Michael Jian**, a high-schooler attending University High School, Irvine, 
 
 This site contains the research projects I've worked on, including:
 
-- Alzheimer’s disease prediction
-- Electric vehicle (EV) adoption across states (2006  - 2023)
-- Student dropout risk modeling
+- Summer 2025 - present: Alzheimer’s disease prediction using baseline and longitudinal MRI. I began this research during a UC COSMOS program.
+- Summer 2024 - present: electric vehicle (EV) adoption across states (2016  - 2023). This project is joint with my friend Jason.
+- Summer 2024: Student dropout risk. This is the first 
 
-I also do other stuff apart from research:
-
-Math competitions:
 
  - 
