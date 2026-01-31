@@ -9,7 +9,7 @@ I'm **Michael Jian**, a high school student at University High School in Irvine,
 
 This website documents my research projects at various stages, including:
 
-- MIT Primes participant (2026); accepted to MIT Primes USA 2026 program. Looking forward to working on exciting research. 
+- MIT Primes participant (2026): accepted to MIT Primes USA 2026 program. Looking forward to working on exciting research. 
 
 - Summer 2025 - Present: Alzheimer’s disease prediction using baseline and longitudinal MRI. I began this research during a UC COSMOS program.   <a href="{{ '/alzheimers/' | relative_url }}">View project</a>
 
