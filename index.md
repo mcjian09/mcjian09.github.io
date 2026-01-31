@@ -11,7 +11,7 @@ I'm **Michael Jian**, a high-schooler attending University High School, Irvine, 
 This site contains the research projects I've worked on, including:
 
 - Alzheimer’s disease prediction
-- Electric vehicle (EV) data and adoption
+- Electric vehicle (EV) adoption across states (2006  - 2023)
 - Student dropout risk modeling
 
 I also do other stuff apart from research:
