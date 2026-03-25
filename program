@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alzheimer Risk App</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<h2>Alzheimer's Risk Projection Tool</h2>
+
+<!-- Inputs -->
+Age: <input id="age" value="65"><br>
+HIPPOVOL: <input id="H"><br>
+LATVENT: <input id="L"><br>
+s.HIPPOVOL: <input id="sH"><br>
+s.LATVENT: <input id="sL"><br>
+Years Ahead (k): <input id="k" value="3"><br><br>
+
+<button onclick="compute()">Compute</button>
+
+<h3 id="output"></h3>
+
+<canvas id="chart" width="600" height="400"></canvas>
+
+<script>
+
+// ===== MODEL COEFFICIENTS =====
+
+// replace these with YOUR values
+const beta = {
+  H: -1800,
+  sH: -7400,
+  L: -6,
+  sL: 735,
+  age: -0.002
+};
+
+// trajectory models (example — replace with your fitted ones)
+function H_mean(age) { return 0.005 - 0.00002*age + 0.0000002*age*age; }
+function L_mean(age) { return 0.02 + 0.0001*age; }
+function sH_mean(age){ return -0.00002 + (-0.0000005)*age; }
+function sL_mean(age){ return 0.0005 + 0.00001*age; }
+
+// ===== CORE FUNCTION =====
+function predictOR(t, k, H, L, sH, sL) {
+
+  // fill missing
+  if (!H)  H  = H_mean(t);
+  if (!L)  L  = L_mean(t);
+  if (!sH) sH = sH_mean(t);
+  if (!sL) sL = sL_mean(t);
+
+  // evolve (linear version)
+  let Hf = H + k * sH;
+  let Lf = L + k * sL;
+
+  let sHf = sH;
+  let sLf = sL;
+
+  // delta
+  let dH  = Hf - H;
+  let dsH = sHf - sH;
+  let dL  = Lf - L;
+  let dsL = sLf - sL;
+  let dage = k;
+
+  let m = beta.H*dH + beta.sH*dsH +
+          beta.L*dL + beta.sL*dsL +
+          beta.age*dage;
+
+  return Math.exp(m);
+}
+
+// ===== UI FUNCTION =====
+let chart;
+
+function compute() {
+
+  let t = parseFloat(document.getElementById("age").value);
+  let k = parseFloat(document.getElementById("k").value);
+
+  let H  = parseFloat(document.getElementById("H").value);
+  let L  = parseFloat(document.getElementById("L").value);
+  let sH = parseFloat(document.getElementById("sH").value);
+  let sL = parseFloat(document.getElementById("sL").value);
+
+  let OR = predictOR(t, k, H, L, sH, sL);
+
+  document.getElementById("output").innerHTML =
+    "OR = " + OR.toFixed(3) +
+    " | Increase = " + ((OR-1)*100).toFixed(1) + "%";
+
+  // ===== plot baseline curves =====
+  let ages = [55,60,65,70,75];
+  let ks = [1,2,3,4,5];
+
+  let datasets = ages.map(a => {
+    return {
+      label: "Age " + a,
+      data: ks.map(kk => (predictOR(a, kk) - 1) * 100),
+      borderWidth: 2,
+      fill: false
+    };
+  });
+
+  // personalized point
+  let userData = ks.map(kk => null);
+  userData[k-1] = (OR - 1) * 100;
+
+  datasets.push({
+    label: "You",
+    data: userData,
+    pointRadius: 6,
+    borderWidth: 0
+  });
+
+  if (chart) chart.destroy();
+
+  chart = new Chart(document.getElementById("chart"), {
+    type: "line",
+    data: { labels: ks, datasets: datasets }
+  });
+}
+
+</script>
+
+</body>
+</html>
