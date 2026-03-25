@@ -1,3 +1,9 @@
+---
+layout: default
+title: Alzheimer Risk App
+permalink: /alzheimers-risk-tool/
+---
+
 <!DOCTYPE html>
 <html>
 <head>
