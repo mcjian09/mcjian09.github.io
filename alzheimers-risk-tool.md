@@ -122,28 +122,28 @@ permalink: /alzheimers-risk-tool/
 <script>
 // ===== MODEL COEFFICIENTS =====
 const beta = {
-  H: -1800,
-  sH: -7400,
-  L: -6,
-  sL: 735,
-  age: -0.002
+  H: -1808.712,
+  sH: -7411.386,
+  L: -6.031705,
+  sL: 734.9819,
+  age: -0.002034521
 };
 
 // ===== TRAJECTORY MODELS =====
 
 // Hippocampus (quadratic)
 function H_mean(age) {
-  return 0.005 - 0.00002 * age + 0.0000002 * age * age;
+  return 0.00305 + 0.00006103 * age - 0.0000005171 * age * age;
 }
 
 // sH linear
 function sH_mean(age) {
-  return -0.00002 + (-0.0000005) * age;
+  return 0.0001864 - 0.000003104 * age;
 }
 
 // LATVENT exponential: log(L) = b0 + b1 * age
-const b0 = Math.log(0.02);  // replace
-const b1 = 0.01;            // replace
+const b0 = -6.076709;  // replace
+const b1 = 0.02953997;            // replace
 
 function L_mean(age) {
   return Math.exp(b0 + b1 * age);
@@ -159,7 +159,7 @@ function predictOR(t, k, H, L, sH) {
   let sL = b1 * L;
 
   // evolve H
-  let a_H = -0.0000005; // replace
+  let a_H = -0.000003103993; // replace
   let sH_mid = sH + (k/2) * a_H;
   let Hf = H + k * sH_mid;
   let sHf = sH + k * a_H;
