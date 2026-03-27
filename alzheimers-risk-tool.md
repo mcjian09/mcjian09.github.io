@@ -204,11 +204,23 @@ function compute() {
   let ages = [50, 60, 70, 80, 90];
   let ks = [1,2,3,4,5];
 
-  let datasets = ages.map(a => ({
+  const lineColors = [
+    "#e41a1c", // red
+    "#ff7f00", // orange
+    "#4daf4a", // green
+    "#377eb8", // blue
+    "#984ea3"  // purple
+  ];
+
+  let datasets = ages.map((a, i) => ({
     label: "Age " + a,
     data: ks.map(kk => (predictOR(a, kk) - 1) * 100),
+    borderColor: lineColors[i],
+    backgroundColor: lineColors[i],
     borderWidth: 2,
-    fill: false
+    fill: false,
+    pointRadius: 3,
+    pointHoverRadius: 5
   }));
 
   // personalized curve
@@ -218,9 +230,12 @@ function compute() {
     label: "You",
     data: userCurve,
     borderColor: "black",
+    backgroundColor: "black",
     borderWidth: 3,
     borderDash: [5,5],
-    pointRadius: 4
+    pointRadius: 4,
+    pointHoverRadius: 6,
+    fill: false
   });
 
   if (chart) chart.destroy();
