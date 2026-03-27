@@ -140,11 +140,7 @@ permalink: /alzheimers-risk-tool/
 
   <button onclick="compute()">Compute</button>
 
-  <h3 id="output"></h3>
-  <p class="note">
-    This page is the same tool from your repository, formatted as a standalone GitHub Pages page.
-  </p>
-</div>
+
 
 <div class="card chart-wrap">
   <canvas id="chart" width="600" height="400"></canvas>
