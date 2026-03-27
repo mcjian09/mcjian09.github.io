@@ -75,7 +75,7 @@ permalink: /alzheimers-MRI-timing/
   }
 </style>
 
-<h1>Alzheimer's Risk Projection Tool</h1>
+<h1>Personalized MRI Scheduling for Early Detection of Brain Atrophy</h1>
 
 <div class="card">
   <p>
