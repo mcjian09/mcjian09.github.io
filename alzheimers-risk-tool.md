@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Alzheimer Risk App
-permalink: /alzheimers-risk-tool/
+title: Personalized MRI Scheduling for Early Detection of Brain Atrophy
+permalink: /alzheimers-MRI-timing/
 ---
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -79,8 +79,8 @@ permalink: /alzheimers-risk-tool/
 
 <div class="card">
   <p>
-    Enter values if available. If HIPPOVOL, LATVENT, or s.HIPPOVOL are missing,
-    the model will estimate them from population trajectories.
+    Only age is required. 
+    HIPPOVOL, LATVENT, and s.HIPPOVOL are volumes that have been standardized by total intracranial volume to adjust for head size. If they are missing, the model will estimate them using population trajectories.
   </p>
 
   <div class="grid">
