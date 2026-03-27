@@ -201,8 +201,8 @@ function compute() {
     " | Increase = " + ((OR - 1) * 100).toFixed(1) + "%";
 
   // ===== Plot =====
-  let ages = [50, 60, 70, 80, 90];
-  let ks = [1,2,3,4,5];
+  let ages = [50, 60, 70, 80];
+  let ks = [1,2,3,4];
 
   const lineColors = [
     "#e41a1c", // red
