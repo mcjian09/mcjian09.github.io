@@ -8,7 +8,7 @@ permalink: /alzheimers/
 
 ## Update
 
-I have created an Alzheimer's Risk Projection Tool, which can be accessed [here](https://mcjian09.github.io/alzheimers-MRI-timing/).
+I have created a tool for MRI scheduling for early detection of brain atrophy, which can be accessed [here](https://mcjian09.github.io/alzheimers-MRI-timing/).
 
 
 ## UCI COSMOS
