@@ -138,7 +138,7 @@ function H_mean(age) {
 
 // sH linear
 function sH_mean(age) {
-  return 0.0001864343 + (-0.000003103993) * age;
+  return 0.0001864343 -0.000003103993 * age;
 }
 
 // LATVENT exponential: log(L) = b0 + b1 * age
@@ -159,7 +159,7 @@ function predictOR(t, k, H, L, sH) {
   let sL = b1 * L;
 
   // evolve H
-  let a_H = -0.0000005; // replace
+  let a_H = -0.000003103993; // replace
   let sH_mid = sH + (k/2) * a_H;
   let Hf = H + k * sH_mid;
   let sHf = sH + k * a_H;
