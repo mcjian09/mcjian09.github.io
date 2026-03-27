@@ -6,11 +6,14 @@ permalink: /alzheimers/
 
 # Alzheimer’s Research
 
-I started researching Alzheimer's Disease during COSMOS at UCI.
+## Update
 
-I have created an Alzheimer's Risk Projection Tool, which can be accessed [here]([url](https://mcjian09.github.io/alzheimers-MRI-timing/)).
+I have created an Alzheimer's Risk Projection Tool, which can be accessed [here](https://mcjian09.github.io/alzheimers-MRI-timing/).
+
 
 ## UCI COSMOS
+
+I started researching Alzheimer's Disease during COSMOS at UCI.
 
 Throughout the COSMOS program, I and two partners worked on predicting Alzheimer's Disease using Neuroimaging and Cognitive Data. Our presentation poster is below:
 
