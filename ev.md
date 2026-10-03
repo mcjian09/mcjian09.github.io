@@ -23,5 +23,4 @@ We compiled the data from the following sources: the U.S. Department of Energy A
 - **Michael Jian, & Jason Sun. (2026).** Electric Vehicle Adoption Across U.S.: Economic Patterns, Market Dynamics, and Future Projections. National High School Journal of Science. [https://nhsjs.com/2026/electric-vehicle-adoption-across-u-s-economic-patterns-market-dynamics-and-future-projections/](https://nhsjs.com/2026/electric-vehicle-adoption-across-u-s-economic-patterns-market-dynamics-and-future-projections/)
 
   <br>
-<iframe src="https://drive.google.com/file/d/1VfTiQssjp7QLhpjPG7fcQuse7lAFHf9E/preview" style="width:100%;height:700px; border:none;"></iframe>
 <!-- <iframe src="https://docs.google.com/document/d/e/2PACX-1vTbouskMIylLUBVscahfJsFYOIng851Dpxmg3UOwtr4UFkr0wHjMprCgOtdvuaQY4NEVlbzl1xPJkXs/pub?embedded=true" style="width:100%; height:16300px; border:none;"></iframe> -->
