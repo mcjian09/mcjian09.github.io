@@ -14,9 +14,7 @@ SpaCoEx first estimates local co-expression matrices from neighboring spatial sp
 
 Overall, SpaCoExprovides a sparse, low-dimensional, and interpretable representation of spatial transcriptomics data that captures complementary aspects of tissue organization beyond expression-based variation alone.
 
-Applying the SpaCoEx method to human data, we found 
-(1) SpaCoEx identifies spatially varying co-expression in cutaneous squamous cell carcinoma regions
-(2) SpaCoEx identified spatially varying gene-gene co-expression and differential co-expression between cancer and non-cancer regions
+Applying the SpaCoEx method to human data, we found (1) SpaCoEx identifies spatially varying co-expression in cutaneous squamous cell carcinoma regions, and (2) SpaCoEx identified spatially varying gene-gene co-expression and differential co-expression between cancer and non-cancer regions
 
 A manuscript of this work can be found at [BioRxiv.org](https://www.biorxiv.org/content/10.64898/2026.09.05.749559v2.full).
 
