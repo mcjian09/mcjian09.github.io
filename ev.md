@@ -8,12 +8,15 @@ permalink: /ev/
 
 This project investigates the economic, policy, and spatial drivers of electric vehicle (EV) adoption across the United States using state-level data from 2016–2023.
 
-# Data can be found here:
  
-- **EV adoption by state (2016–2023)**: EV adoption as a percentage of total vehicle population, by state. [DATA](https://github.com/mcjian09/EV-Adoption-Across-United-States/blob/main/data/EV_ADOPTION16-23.csv)
-- **EV adoption with state-level variables (2023)**: income, fuel prices, infrastructure, incentives, urbanization. [DATA](https://github.com/mcjian09/EV-Adoption-Across-United-States/blob/main/data/2023_EV_Data_by_state.csv)
-
+## Data
 We compiled the data from the following sources: the U.S. Department of Energy Alternative Fuels Data Center, the U.S. Energy Information Administration, the U.S. Department of Transportation, and the U.S. Census Bureau.
+
+- ***EV adoption by state (2016–2023)***: EV adoption as a percentage of total vehicle population, by state. [DATA](https://github.com/mcjian09/EV-Adoption-Across-United-States/blob/main/data/EV_ADOPTION16-23.csv)
+- ***EV adoption with state-level variables (2023)***: income, fuel prices, infrastructure, incentives, urbanization. [DATA](https://github.com/mcjian09/EV-Adoption-Across-United-States/blob/main/data/2023_EV_Data_by_state.csv)
+
+                              
+               
 
 ## Manuscript
 
