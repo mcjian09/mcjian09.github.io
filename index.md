@@ -3,6 +3,8 @@ layout: default
 title: "Home"
 ---
 
+---
+
 I'm **Michael Jian**, a high school student at University High School in Irvine, California. My interests center on using mathematics and computational methods to understand the world.
 
 
