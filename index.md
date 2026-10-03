@@ -5,7 +5,7 @@ title: "Home"
 
 ---
 
-I'm **Michael Jian**, a high school student at University High School in Irvine, California. My interests center on using mathematics and computational methods to understand the world.
+I'm **Michael Jian**, a high school student at [University High School](https://universityhigh.iusd.org/) in Irvine, California. My interests center on using mathematics and computational methods to understand the world.
 
 
 This website documents some of my research projects at various stages, including:
