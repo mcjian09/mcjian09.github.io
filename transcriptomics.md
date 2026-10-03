@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Spatial Transcriptomics Research"
+permalink: /transcriptomics/
+---
+
 ## Spatial Transcriptomics Research
 
 I started researching spatial transcriptomics as part of the MIT PRIMES-USA program, under the guidance of [Professor Gil Alterovitz](https://connects.catalyst.harvard.edu/Profiles/display/Person/65201) and [Dr. Shaojun Pei](https://orcid.org/0000-0001-9758-3959).
