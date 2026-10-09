@@ -15,7 +15,7 @@ I have created a tool for MRI scheduling for early detection of brain atrophy, w
 
 I started researching Alzheimer's Disease during COSMOS at UCI.
 
-Throughout the COSMOS program, I and two partners worked on predicting Alzheimer's Disease using Neuroimaging and Cognitive Data. Our presentation poster is below:
+Throughout the COSMOS program, I and two fellow students worked on predicting Alzheimer's Disease using Neuroimaging and Cognitive Data. Our presentation poster is below:
 
 <iframe 
   src="https://docs.google.com/presentation/d/e/2PACX-1vRy1u-PM043SvdPDCD4jqbZ0qxCB6nLS8qiSY-y2BMxMbU2QU8Uzqt7HNvX7f1qcFKtsIr4SmWuZWaJ/embed?start=false&loop=false&delayms=30000"
@@ -29,11 +29,9 @@ Throughout the COSMOS program, I and two partners worked on predicting Alzheimer
 
 
 
-## Continuation of Research
+## Continuation of Research after COSMOS
 
-During COSMOS, we wanted to do an longitudinal analysis of the data to analyze how changes in the brain over time affected Alzheimer's progression. However, we were unable to sort through the data.
-
-Following the conclusion of COSMOS, I started working on the longitudinal analysis of the data, and presented my work at the [Southern California Conference for Undergraduate Research](https://sccur.org). My slideshow is below:
+Following the conclusion of COSMOS, I started studying how changes in the brain over time affected Alzheimer's progression. I presented the work at the [2025 Southern California Conference for Undergraduate Research](https://sccur.org). My slideshow is below:
 
 <iframe 
   src="https://docs.google.com/presentation/d/e/2PACX-1vQxxc1KwWMIznKjwavFyYARc2zsMT3B9JV5XAqGpERDPg0u8fFyRJFLOsQdaHzZn4VVKL_w4u8cz10B/embed?start=false&loop=false&delayms=300000"
